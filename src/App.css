@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #012641;  /* Dark Blue */
-  --secondary-color: #60b3d1; /* Medium Blue */
-  --accent-color: #f4fbfd;   /* Very Light Blue */
-  --background-color: #012641; /* Dark Blue */
-  --text-color: #f4fbfd;     /* Very Light Blue */
-  --button-hover-color: #60b3d1; /* Medium Blue */
-  --highlight-color: #f4fbfd; /* Very Light Blue for highlights */
+  --primary-color: #012641;
+  --secondary-color: #60b3d1; 
+  --accent-color: #f4fbfd;   
+  --background-color: #012641; 
+  --text-color: #f4fbfd;     
+  --button-hover-color: #60b3d1; 
+  --highlight-color: #f4fbfd; 
 }
 
 * {
@@ -19,7 +19,7 @@ html, body {
   font-family: 'Roboto', Arial, sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
-  overflow: hidden; /* This will hide both horizontal and vertical scrollbars */
+  overflow: hidden; 
 }
 
 .app {
@@ -27,7 +27,7 @@ html, body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* This ensures the app doesn't cause scrollbars */
+  overflow: hidden; 
 }
 
 .app-header {
@@ -71,8 +71,8 @@ html, body {
 .dashboard {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 130px); /* Subtracting header and footer height */
-  overflow-y: auto; /* Allow vertical scrolling within the dashboard if needed */
+  height: calc(100vh - 130px); 
+  overflow-y: auto; 
   padding: 20px;
   justify-content: flex-start;
   align-items: center;
