@@ -1,0 +1,104 @@
+{
+    "constellations": [
+      {
+        "name": "Orion",
+        "stars": [
+          { "name": "Betelgeuse", "ra": 88.793, "dec": 7.407 },
+          { "name": "Rigel", "ra": 78.634, "dec": -8.201 },
+          { "name": "Bellatrix", "ra": 81.282, "dec": 6.35 },
+          { "name": "Mintaka", "ra": 83.0017, "dec": -0.2991 },
+          { "name": "Alnilam", "ra": 84.052, "dec": -1.201 },
+          { "name": "Alnitak", "ra": 85.1897, "dec": -1.9426 }
+        ],
+        "lines": [
+          ["Betelgeuse", "Bellatrix"],
+          ["Bellatrix", "Mintaka"],
+          ["Mintaka", "Alnilam"],
+          ["Alnilam", "Alnitak"],
+          ["Alnitak", "Rigel"]
+        ]
+      },
+      {
+        "name": "Ursa Major",
+        "stars": [
+          { "name": "Dubhe", "ra": 165.932, "dec": 61.751 },
+          { "name": "Merak", "ra": 165.46, "dec": 56.382 },
+          { "name": "Phecda", "ra": 178.457, "dec": 53.695 },
+          { "name": "Megrez", "ra": 183.856, "dec": 57.033 },
+          { "name": "Alioth", "ra": 193.507, "dec": 55.96 },
+          { "name": "Mizar", "ra": 200.981, "dec": 54.926 },
+          { "name": "Alkaid", "ra": 206.885, "dec": 49.313 }
+        ],
+        "lines": [
+          ["Dubhe", "Merak"],
+          ["Merak", "Phecda"],
+          ["Phecda", "Megrez"],
+          ["Megrez", "Alioth"],
+          ["Alioth", "Mizar"],
+          ["Mizar", "Alkaid"]
+        ]
+      },
+      {
+        "name": "Cassiopeia",
+        "stars": [
+          { "name": "Schedar", "ra": 10.127, "dec": 56.537 },
+          { "name": "Caph", "ra": 2.294, "dec": 59.15 },
+          { "name": "Gamma Cassiopeiae", "ra": 14.177, "dec": 60.717 },
+          { "name": "Ruchbah", "ra": 21.454, "dec": 60.235 },
+          { "name": "Segin", "ra": 28.599, "dec": 63.67 }
+        ],
+        "lines": [
+          ["Schedar", "Caph"],
+          ["Caph", "Gamma Cassiopeiae"],
+          ["Gamma Cassiopeiae", "Ruchbah"],
+          ["Ruchbah", "Segin"]
+        ]
+      },
+      {
+        "name": "Cygnus",
+        "stars": [
+          { "name": "Deneb", "ra": 310.358, "dec": 45.28 },
+          { "name": "Albireo", "ra": 292.68, "dec": 27.96 },
+          { "name": "Sadr", "ra": 305.557, "dec": 40.257 },
+          { "name": "Gienah", "ra": 307.406, "dec": 40.257 },
+          { "name": "Aljanah", "ra": 300.947, "dec": 35.083 }
+        ],
+        "lines": [
+          ["Deneb", "Sadr"],
+          ["Sadr", "Albireo"],
+          ["Sadr", "Gienah"],
+          ["Sadr", "Aljanah"]
+        ]
+      },
+      {
+        "name": "Lyra",
+        "stars": [
+          { "name": "Vega", "ra": 279.234, "dec": 38.784 },
+          { "name": "Sheliak", "ra": 282.52, "dec": 33.363 },
+          { "name": "Sulafat", "ra": 284.736, "dec": 32.689 },
+          { "name": "Epsilon Lyrae", "ra": 281.099, "dec": 39.67 }
+        ],
+        "lines": [
+          ["Vega", "Sheliak"],
+          ["Sheliak", "Sulafat"],
+          ["Vega", "Epsilon Lyrae"]
+        ]
+      },
+      {
+        "name": "Scorpius",
+        "stars": [
+          { "name": "Antares", "ra": 247.352, "dec": -26.432 },
+          { "name": "Shaula", "ra": 263.402, "dec": -37.104 },
+          { "name": "Sargas", "ra": 264.33, "dec": -42.998 },
+          { "name": "Dschubba", "ra": 240.083, "dec": -22.622 },
+          { "name": "Acrab", "ra": 241.359, "dec": -19.805 }
+        ],
+        "lines": [
+          ["Antares", "Shaula"],
+          ["Shaula", "Sargas"],
+          ["Antares", "Dschubba"],
+          ["Dschubba", "Acrab"]
+        ]
+      }
+    ]
+  }

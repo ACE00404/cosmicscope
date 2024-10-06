@@ -1,0 +1,131 @@
+[
+    {
+      "name": "Kepler-22b",
+      "mass": "2.4 Earth masses",
+      "radius": "2.4 Earth radii",
+      "orbital_period": "289.9 days",
+      "discovered": "2011",
+      "distance": "600 light years"
+    },
+    {
+      "name": "Proxima Centauri b",
+      "mass": "1.17 Earth masses",
+      "radius": "1.1 Earth radii",
+      "orbital_period": "11.2 days",
+      "discovered": "2016",
+      "distance": "4.24 light years"
+    },
+    {
+      "name": "HD 209458 b",
+      "mass": "0.69 Jupiter masses",
+      "radius": "1.32 Jupiter radii",
+      "orbital_period": "3.5 days",
+      "discovered": "1999",
+      "distance": "159 light years"
+    },
+    {
+      "name": "55 Cancri e",
+      "mass": "8.63 Earth masses",
+      "radius": "2 Earth radii",
+      "orbital_period": "0.74 days",
+      "discovered": "2004",
+      "distance": "41 light years"
+    },
+    {
+      "name": "TRAPPIST-1d",
+      "mass": "0.388 Earth masses",
+      "radius": "0.788 Earth radii",
+      "orbital_period": "4.05 days",
+      "discovered": "2017",
+      "distance": "39 light years"
+    },
+    {
+      "name": "Gliese 581 g",
+      "mass": "3.1 Earth masses",
+      "radius": "1.5 Earth radii",
+      "orbital_period": "37 days",
+      "discovered": "2010",
+      "distance": "20.3 light years"
+    },
+    {
+      "name": "Kepler-452b",
+      "mass": "5 Earth masses",
+      "radius": "1.63 Earth radii",
+      "orbital_period": "385 days",
+      "discovered": "2015",
+      "distance": "1,400 light years"
+    },
+    {
+      "name": "Gliese 667 Cc",
+      "mass": "4.5 Earth masses",
+      "radius": "1.5 Earth radii",
+      "orbital_period": "28.1 days",
+      "discovered": "2011",
+      "distance": "23.62 light years"
+    },
+    {
+      "name": "WASP-12b",
+      "mass": "1.47 Jupiter masses",
+      "radius": "1.9 Jupiter radii",
+      "orbital_period": "1.09 days",
+      "discovered": "2008",
+      "distance": "1,400 light years"
+    },
+    {
+      "name": "HD 189733 b",
+      "mass": "1.13 Jupiter masses",
+      "radius": "1.14 Jupiter radii",
+      "orbital_period": "2.22 days",
+      "discovered": "2005",
+      "distance": "63 light years"
+    },
+    {
+      "name": "Kepler-438b",
+      "mass": "1.5 Earth masses",
+      "radius": "1.12 Earth radii",
+      "orbital_period": "35.2 days",
+      "discovered": "2015",
+      "distance": "470 light years"
+    },
+    {
+      "name": "Tau Ceti e",
+      "mass": "4.29 Earth masses",
+      "radius": "1.75 Earth radii",
+      "orbital_period": "168 days",
+      "discovered": "2012",
+      "distance": "11.9 light years"
+    },
+    {
+      "name": "Ross 128 b",
+      "mass": "1.35 Earth masses",
+      "radius": "1.1 Earth radii",
+      "orbital_period": "9.9 days",
+      "discovered": "2017",
+      "distance": "11 light years"
+    },
+    {
+      "name": "LHS 1140 b",
+      "mass": "6.6 Earth masses",
+      "radius": "1.43 Earth radii",
+      "orbital_period": "24.7 days",
+      "discovered": "2017",
+      "distance": "40 light years"
+    },
+    {
+      "name": "GJ 1214 b",
+      "mass": "6.55 Earth masses",
+      "radius": "2.68 Earth radii",
+      "orbital_period": "1.58 days",
+      "discovered": "2009",
+      "distance": "47.8 light years"
+    },
+    {
+      "name": "Kapteyn b",
+      "mass": "4.8 Earth masses",
+      "radius": "1.5 Earth radii",
+      "orbital_period": "48.6 days",
+      "discovered": "2014",
+      "distance": "12.77 light years"
+    }
+  ]
+  

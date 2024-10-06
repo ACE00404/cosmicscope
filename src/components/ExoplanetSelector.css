@@ -1,0 +1,26 @@
+/* ExoplanetSelector.css */
+.exoplanet-selector {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .exoplanet-selector select {
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: none;
+    background: #282c34;
+    color: white;
+    width: 250px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .exoplanet-selector label {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #ffdd57;
+  }
+  

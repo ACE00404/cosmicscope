@@ -1,0 +1,255 @@
+:root {
+  --primary-color: #012641;  /* Dark Blue */
+  --secondary-color: #60b3d1; /* Medium Blue */
+  --accent-color: #f4fbfd;   /* Very Light Blue */
+  --background-color: #012641; /* Dark Blue */
+  --text-color: #f4fbfd;     /* Very Light Blue */
+  --button-hover-color: #60b3d1; /* Medium Blue */
+  --highlight-color: #f4fbfd; /* Very Light Blue for highlights */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow: hidden; /* This will hide both horizontal and vertical scrollbars */
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* This ensures the app doesn't cause scrollbars */
+}
+
+.app-header {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  color: var(--text-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.circular-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+}
+
+.app-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app-header h1 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 130px); /* Subtracting header and footer height */
+  overflow-y: auto; /* Allow vertical scrolling within the dashboard if needed */
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--background-color);
+}
+
+.view-selector {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-selector select {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.planet-info, .single-planet-visualizations, .canvas-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  background-color: rgba(96, 179, 209, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  font-weight: bold;  /* Added bold font weight */
+}
+
+button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+canvas {
+  background: var(--background-color);
+  border-radius: 10px;
+}
+
+/* Hovered constellation display */
+.hovered-constellation {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(1, 38, 65, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--highlight-color);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Comparison mode styling */
+.visualization-comparison {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.planet-comparison {
+  flex-basis: 45%;
+  margin-bottom: 20px;
+}
+
+.starry-sky-container {
+  flex-grow: 1;
+  height: 80vh;
+  min-height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 2px solid var(--secondary-color);
+}
+
+h2, h3 {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.comparison-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.comparison-list li {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.comparison-list li:hover {
+  background-color: var(--accent-color);
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+/* Custom scrollbar styles for the dashboard */
+.dashboard::-webkit-scrollbar {
+  width: 10px;
+}
+
+.dashboard::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+.dashboard::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 6px;
+  border: 3px solid var(--background-color);
+}
+
+.dashboard::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent-color);
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 1000;
+  animation: fadeIn 0.3s, fadeOut 0.3s 2.7s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
